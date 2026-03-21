@@ -24,7 +24,7 @@ Stop writing repetitive boilerplate for forms.
 ## 📦 Installation
 
 ```bash
-npm install vue-model-kit
+npm install vue-state-kit
 ```
 
 ---
@@ -32,7 +32,7 @@ npm install vue-model-kit
 ## 🚀 Quick Start
 
 ```ts
-import { useModel } from "vue-model-kit";
+import { useModel } from "vue-state-kit";
 
 const form = useModel({
   name: "Vlad",
@@ -52,7 +52,7 @@ form.clear();
 
 ---
 
-## Why vue-model-kit?
+## Why vue-state-kit?
 
 When working with Vue forms, it is common to repeat the same logic again and again:
 
@@ -389,7 +389,7 @@ Result after `clear()`:
 
 ## Nested Path Support
 
-`vue-model-kit` supports dot notation for nested fields.
+`vue-state-kit` supports dot notation for nested fields.
 
 Examples:
 
@@ -408,7 +408,7 @@ This makes it easier to work with deeply nested form models.
 ## Full Example
 
 ```ts
-import { useModel } from "vue-model-kit";
+import { useModel } from "vue-state-kit";
 
 const form = useModel(
   {
@@ -516,7 +516,7 @@ Array index paths such as `items.0.name` may have limited support depending on t
 
 ## Recommended Use Cases
 
-`vue-model-kit` is a good fit for:
+`vue-state-kit` is a good fit for:
 
 - form state management in Vue 3
 - admin panels
