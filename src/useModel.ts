@@ -226,10 +226,6 @@ const clearField = (path: string) => {
     return JSON.stringify(model) !== JSON.stringify(initial);
   });
 
-  const test = () => {
-    console.log('Hello world');
-  };
-
   return {
     model,
     setField,
@@ -242,6 +238,5 @@ const clearField = (path: string) => {
     clearField,
     removeField,
     isDirty,
-    test,
   };
 }
